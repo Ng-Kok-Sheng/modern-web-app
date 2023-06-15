@@ -1,4 +1,19 @@
-import assets from "../assets";
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  send,
+  shield,
+  star,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -22,21 +37,21 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: assets["Star.svg"],
+    icon: star,
     title: "Rewards",
     content:
       "The best credit cards offer some tantalizing combinations of promotions and prizes",
   },
   {
     id: "feature-2",
-    icon: assets["Shield.svg"],
+    icon: shield,
     title: "100% Secured",
     content:
       "We take proactive steps make sure your information and transactions are secure.",
   },
   {
     id: "feature-3",
-    icon: assets["Send.svg"],
+    icon: send,
     title: "Balance Transfer",
     content:
       "A balance transfer credit card can save you a lot of money in interest charges.",
@@ -50,7 +65,7 @@ export const feedback = [
       "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
     name: "Herman Jensen",
     title: "Founder & Leader",
-    img: assets["people01.png"],
+    img: people01,
   },
   {
     id: "feedback-2",
@@ -58,7 +73,7 @@ export const feedback = [
       "Money makes your life easier. If you're lucky to have it, you're lucky.",
     name: "Steve Mark",
     title: "Founder & Leader",
-    img: assets["people02.png"],
+    img: people02,
   },
   {
     id: "feedback-3",
@@ -66,7 +81,7 @@ export const feedback = [
       "It is usually people in the money business, finance, and international trade that are really rich.",
     name: "Kenn Gallagher",
     title: "Founder & Leader",
-    img: assets["people03.png"],
+    img: people03,
   },
 ];
 
@@ -157,22 +172,22 @@ export const footerLinks = [
 export const socialMedia = [
   {
     id: "social-media-1",
-    icon: assets["instagram.svg"],
+    icon: instagram,
     link: "https://www.instagram.com/",
   },
   {
     id: "social-media-2",
-    icon: assets["facebook.svg"],
+    icon: facebook,
     link: "https://www.facebook.com/",
   },
   {
     id: "social-media-3",
-    icon: assets["twitter.svg"],
+    icon: twitter,
     link: "https://www.twitter.com/",
   },
   {
     id: "social-media-4",
-    icon: assets["linkedin.svg"],
+    icon: linkedin,
     link: "https://www.linkedin.com/",
   },
 ];
@@ -180,18 +195,18 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: assets["airbnb.png"],
+    logo: airbnb,
   },
   {
     id: "client-2",
-    logo: assets["binance.png"],
+    logo: binance,
   },
   {
     id: "client-3",
-    logo: assets["coinbase.png"],
+    logo: coinbase,
   },
   {
     id: "client-4",
-    logo: assets["dropbox.png"],
+    logo: dropbox,
   },
 ];
