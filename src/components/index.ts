@@ -4,7 +4,7 @@ import Button from "./Button";
 import CardDeal from "./CardDeal";
 import Client from "./Client";
 import CTA from "./CTA";
-import Feedback from "./Feedback";
+import Feedback from "./FeedbackCard";
 import Footer from "./Footer";
 import GetStarted from "./GetStarted";
 import Hero from "./Hero";

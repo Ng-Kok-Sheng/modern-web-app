@@ -2,13 +2,10 @@ import styles from "./style";
 import {
   Billing,
   Business,
-  Button,
   CardDeal,
   Client,
   CTA,
-  Feedback,
   Footer,
-  GetStarted,
   Hero,
   Navbar,
   Stats,
